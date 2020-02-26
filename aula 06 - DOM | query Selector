@@ -1,0 +1,9 @@
+Simplificação do getElementById, getElementByClassName e do getElementByTagName
+
+Js entende que coisas maiúsculas e minúsculas são diferentes
+
+obs : querySelector não retorna o array
+
+vantagem : se tiver apenas um elemento na tela, vale a pena usá-lo. Do contrário, não.
+
+atenção : em um sistema muito grande, tomar cuidado para utilizá-lo.

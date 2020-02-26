@@ -1,0 +1,4 @@
+serve especificamente para remover um item do elemento filho 
+
+obs : document.getElementById("nissan").removeChild(versa);
+ao utilizar o removeChild no exemplo acima, não passar o que tu quer remover em formato de string (pois ele não reconhecerá)

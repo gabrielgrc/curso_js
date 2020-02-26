@@ -1,0 +1,9 @@
+tipos primitivos
+-string : ""
+-number :1,2,3...
+obs : um numéro entre "" é uma string
+-boolean: true, false
+-undefined : indefinido(não encontrado)
+-null: sem valor
+
+obs : typeof é a maneira de tu descobrir o tipo

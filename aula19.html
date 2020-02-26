@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UFT-8">
+  <title>aula 19 </title>
+  <scrip1t>
+  </script>
+</head>
+<body>
+    
+    <script>
+
+        function nomedafuncao(valor){
+            //aqui é o que será executado
+            return ++valor;
+        }
+
+        function calculaMedia(nota1, nota2, nota3){
+            return (nota1+nota2+nota3)/3 
+        }
+        
+        var pessoa ={
+            nome: "Keven Jesus",
+            idade: 24,
+            profissao: 'professor',
+            cidade: 'Sp'
+        }
+
+        function novaPessoa(nome, idade, profissao, cidade){
+            pessoa.nome = nome
+            pessoa.idade = idade
+            pessoa.profissao = profissao
+            pessoa.cidade = cidade
+        }
+
+        function novaPessoa2(novoObjetoPessoa){//objeto como parâmetro para assim evitar os índices como na var pessoa logo acima
+            //pessoa = novoObjetoPessoa
+            //return novoObjetoPessoa
+            if (typeof novoObjetoPessoa == "object"){
+                pessoa = novoObjetoPessoa
+                return true
+            }else{
+                return false
+            }
+        }
+
+        function testeParametros(){
+                console.log(arguments)
+                return true
+            }
+
+    </script>
+
+</body>
+</html>

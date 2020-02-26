@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UFT-8">
+  <title>aula 27 </title>
+
+  <style>
+      .error{
+          border:2px solid red
+      }
+  </style>
+
+</head>
+<body>
+<form action="#" method="post">
+    <input type="text" name="name" value="keven">
+    <input type="email" name="email" value="falecom@keven.com.br">
+    <button type="submit">enter </button>
+</form>
+    <script>
+        
+        var form = document.querySelector("form")
+
+        form.addEventListener("submit", function(evento){
+        evento.preventDefault()
+        var isvalid = true
+
+            for(var i = 0; i<this.elements.length; i++){
+                //evento.preventDefault
+              //  console.log(this.elements)
+              var item = this.elements[i]
+
+                //console.log(item.type)
+
+                if (item.type !== "submit"){
+
+                    if(item.value == ""){
+                    item.classList.add("error")
+                    isvalid = false
+                }else{
+                    item.classList.remove("error")
+                }
+
+                }
+
+                
+            }
+            console.log(isvalid)
+        })
+
+    </script>
+
+</body>
+</html>

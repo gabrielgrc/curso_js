@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UFT-8">
+  <title>aula 25 </title>
+
+</head>
+<body>
+<input type="text" id="search">
+
+<div id="result">Nenhum resultado</div>
+
+    <script>
+
+    var text = document.getElementById("search")
+    var result = document.getElementById("result")
+    var resultDefaultText = "Nenhum resultado"
+    
+    text.addEventListener("keyup", function(){
+        //console.log("disparou", this.value)
+        var value = this.value
+        if(value !== ""){
+        result.innerText = this.value
+        }else{
+            result.innerText = resultDefaultText
+        }
+    })
+
+    </script>
+
+</body>
+</html>

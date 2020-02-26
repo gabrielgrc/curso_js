@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UFT-8">
+  <title>aula 18 </title>
+  <scrip1t>
+  </script>
+</head>
+<body>
+        <div class = "js">React</div>
+        <div class = "js">angular</div>
+        <div class = "js">Javascript</div>
+        <div class = "js">es6</div>
+
+    <script>
+        var js = document.getElementsByClassName("js")
+        //console.log(js)
+    
+    for(let i = 0; i < js.length; i++){
+        //console.log(i)
+        //console.log(js[i])
+
+        let texto = js[i].innerHTML
+        js[i].innerHTML = 'Curso texto '+texto+'js'
+
+    }
+
+    var array =[1,2,3,4]
+        //console.log(js, array)
+        //console.log(texto)
+
+        array.forEach(function (element,index){//forEach só percorre arrays. //para usar têm q se definir o protótipo do Array
+           //console.log(element, index)//este console exibe bem a ideia de elemento e índice
+        if (element == 1){
+            array[index] = "vira outra coisa crai"
+        }
+        
+        })
+
+       // console.log(array)
+
+       var nova = array.map(function(element, index){//assim como o forEach, só acessa Arrays. O map retorna um novo elemento
+        if (element == 1){
+            element = "vira outra coisa crai"
+        }
+        return element
+       })
+       console.log(nova)
+
+      // while(true){//exemplo de loop infinito, pois sempre será true
+           //console.log('oi')
+       //}
+    var i = 0
+       while(i < 5){
+        //console.log('oi')
+        i++
+       }
+
+    </script>
+
+</body>
+</html>

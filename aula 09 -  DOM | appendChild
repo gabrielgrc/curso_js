@@ -1,0 +1,6 @@
+Recurso em que tu pode inserir um elemento dentro do outro
+
+No JS, o "." faz refereência ao elemento anterior
+
+document.getElementById("nissan").appendChild(sentra);
+na linha acima, appendChild faz referência à getElementById("nissan")

@@ -1,0 +1,13 @@
+Aula bastante útil para estudar o comportamento de eventos relacionados à mouse 
+
+obs : não será copiado tudo para não perder tempo, portanto olhar o vídeo
+
+https://www.youtube.com/watch?v=FYS8Weoiq1s&list=PLBnXXDBNZQpJKH1Fx2EAbKbG9p_dV_pKW&index=22
+
+hover não é apenas passar o mouse por cima de um evento
+
+addEventListeener (string, o que acontece após o evento)
+
+no js, o evento de mouse sempre tará mouse + alguma coisa
+
+link.classList.add("link")// isto mudará o comportamento da tua classe (se estiver dentro de um mouseover)

@@ -1,0 +1,8 @@
+primeiro modo de escrever em js é por dentro da tag <script> 
+outra forma é chamar um atributo externo.
+
+ex: <script src="aplicacao.js"> </script>
+
+o scrpit dentro do head é carregado antes da página, depois do head depois.
+
+sempre que for trabalgar com JS, usar o console do Inspect

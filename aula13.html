@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UFT-8">
+  <title>aula 13 </title>
+  <scrip1t>
+  </script>
+</head>
+<body>
+
+    <script>
+    var nome = "keven";
+    //isto é escopo global
+    //nome = "outro keven"
+
+    function teste(){
+        nome = "rafael" //exemplo de um escopo global sendo definido de forma local
+        //var nome = "rafael" deste maneira apenas temos acesso de forma local à variável nome
+    }
+    teste()
+    console.log(
+        nome
+    )
+
+    function teste2(){
+        let nome2 = "keven" // usar let é especificar que será um escopo local
+    }
+
+    teste2()
+
+    //console.log(nome2) não funcionará pq nome2 foi definido como let
+
+    const nome3 = 'jesus'
+    //nome3 = 'carneiro' não funcionará pq nome3 é uma constante
+    console.log(nome3)
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+acessa o elemento pai de um determinado elemento que tu usou
+
+sintaxe em uso : document.querySelector(".elementaryos").parentNode

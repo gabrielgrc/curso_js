@@ -1,0 +1,5 @@
+maneira de acessar classes no JS
+
+getelement... -> retorna todas as classes de html (arrays)
+
+para acessar, passar um índice

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UFT-8">
+  <title>aula 23 </title>
+
+</head>
+<body>
+
+    <select id="Linguagens">
+    <option value="1">  php  </option>
+    <option value="2">  js </option>
+    <option value="3">  java  </option>
+    <option value="4">  c#  </option>
+    </select>
+    
+    <script>
+        var linguagens = document.getElementById("Linguagens")
+
+        linguagens.addEventListener("change", function() {
+            //console.log(this.value)
+            //console.log(this.selectedIndex)
+            var options = this.options
+            var itemAtual = this.selectedIndex
+
+            console.log(options[itemAtual].value)
+        })
+    </script>
+
+</body>
+</html>

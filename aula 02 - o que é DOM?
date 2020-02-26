@@ -1,0 +1,9 @@
+	O que é DOM - document object model?
+
+todas as teclas do html são o que representam o DOM
+
+dom facilita que o js acesse esses elementos
+
+print da árvore na pasta
+
+ex: getElementbyId
